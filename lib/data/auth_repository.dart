@@ -1,11 +1,11 @@
 import 'dart:async';
 
-import 'package:ecommerce_app/src/features/authentication/data/firebase_app_user.dart';
+import 'package:flatfinder/src/features/authentication/data/firebase_app_user.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-import 'package:ecommerce_app/src/features/authentication/domain/app_user.dart';
+import 'package:flatfinder/src/features/authentication/domain/app_user.dart';
 
 part 'auth_repository.g.dart';
 
